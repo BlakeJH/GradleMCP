@@ -29,7 +29,7 @@ powershell -Command "Remove-Item 7Z -Force -Recurse"
 del 7Z.zip
 
 echo ^> Downloading MCP
-powershell -Command "(New-Object Net.WebClient).DownloadFile('https://download856.mediafire.com/ovk4lisqjjeg/w2xhirqwu4s5u0m/MCP_1.8.9.zip', 'mcp.zip');
+powershell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/BlakeJH/GradleMCP-Resources/main/MCP_1.8.9.zip', 'mcp.zip');
 echo ^> Unzipping MCP
 7za x mcp.zip -y -omcp > NUL:
 del mcp.zip
@@ -75,7 +75,7 @@ goto :choice
 echo. 
 cd temp
 echo ^> Downloading optifine.zip
-powershell -Command "$AllProtocols = [System.Net.SecurityProtocolType]'Ssl3,Tls,Tls11,Tls12'; [System.Net.ServicePointManager]::SecurityProtocol = $AllProtocols; Invoke-WebRequest -Uri https://www.mediafire.com/file/3ae49n16p7wcxfa/optifine.zip/file -OutFile optifine1.zip"
+powershell -Command "$AllProtocols = [System.Net.SecurityProtocolType]'Ssl3,Tls,Tls11,Tls12'; [System.Net.ServicePointManager]::SecurityProtocol = $AllProtocols; Invoke-WebRequest -Uri https://raw.githubusercontent.com/BlakeJH/GradleMCP-Resources/main/optifine_1.8.9.zip -OutFile optifine1.zip"
 echo ^> Unzipping optifine
 7za x optifine.zip -y -ooptifine > NUL:
 cd ../
