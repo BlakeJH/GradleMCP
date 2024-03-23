@@ -29,8 +29,8 @@ clear
 echo "Building a GradleMCP..."
 
 echo "Downloading resources..."
-MCP_DOWNLOAD="https://download856.mediafire.com/ovk4lisqjjeg/w2xhirqwu4s5u0m/MCP_1.8.9.zip"
-OPTIFINE_DOWNLOAD="ttps://www.mediafire.com/file/3ae49n16p7wcxfa/optifine.zip/file"
+MCP_DOWNLOAD="https://raw.githubusercontent.com/BlakeJH/GradleMCP-Resources/main/MCP_1.8.9.zip"
+OPTIFINE_DOWNLOAD="https://raw.githubusercontent.com/BlakeJH/GradleMCP-Resources/main/optifine_1.8.9.zip"
 
 if [ ! -d "mcp" ] ; then
 	mkdir mcp
