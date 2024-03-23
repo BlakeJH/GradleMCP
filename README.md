@@ -9,8 +9,7 @@ Windows: Yes, tested.
 
 Supported versions:
 
-1.8.8
-1.8.9
+1.8.8/1.8.9
 
 # How to setup #
 
@@ -22,7 +21,7 @@ Step 1: Make a new folder on your desktop call it anything you want, preferably 
 
 Step 2: Download or git clone this repository in that folder
 
-Step 3: Remove everything except the contents inside of the '1.8.8' folder. So you should end up with your client folder, with 3 files. (build.gradle, BuildProject.sh/bat, CompileClient.sh/bat)
+Step 3: Remove everything except the contents inside of the '1.8.8/1.8.9' folder. So you should end up with your client folder, with 3 files. (build.gradle, BuildProject.sh/bat, CompileClient.sh/bat)
 
 # Windows Users #
 
