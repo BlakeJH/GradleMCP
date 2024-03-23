@@ -81,7 +81,7 @@ You will get an error this is how to fix:
 
 Click on the drop down box right by the green hammer (top right corner) and click on "Edit Configurations".
 
-You will "VM options: " and then a text box, in that textbox put "-Djava.library.path=versions/1.8.8/1.8.8-natives/" This is linking the native libraries.
+You will "VM options: " and then a text box, in that textbox put "-Djava.library.path=versions/1.8.8/1.8.8-natives/" or "-Djava.library.path=versions/1.8.9/1.8.9-natives/" This is linking the native libraries.
 
 Then you will see "Working directory: " then a textbox with a file path in it, just add a /.minecraft at the end of it.
 "/home/hippo/Desktop/GradleMCP" will become "/home/hippo/Desktop/GradleMCP/.minecraft"
