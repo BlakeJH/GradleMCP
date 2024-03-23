@@ -75,14 +75,14 @@ goto :choice
 echo. 
 cd temp
 echo ^> Downloading optifine.zip
-powershell -Command "$AllProtocols = [System.Net.SecurityProtocolType]'Ssl3,Tls,Tls11,Tls12'; [System.Net.ServicePointManager]::SecurityProtocol = $AllProtocols; Invoke-WebRequest -Uri https://raw.githubusercontent.com/BlakeJH/GradleMCP-Resources/main/optifine_1.8.9.zip -OutFile optifine1.zip"
+powershell -Command "$AllProtocols = [System.Net.SecurityProtocolType]'Ssl3,Tls,Tls11,Tls12'; [System.Net.ServicePointManager]::SecurityProtocol = $AllProtocols; Invoke-WebRequest -Uri https://raw.githubusercontent.com/BlakeJH/GradleMCP-Resources/main/optifine_1.8.9.zip -OutFile optifine.zip"
 echo ^> Unzipping optifine
 7za x optifine.zip -y -ooptifine > NUL:
 cd ../
 echo ^> Installing optifine
-powershell -Command "Copy-Item temp/optifine1/net -Destination src/main/java -Force -Recurse"
-powershell -Command "Copy-Item temp/optifine1/javax -Destination src/main/java -Force -Recurse"
-powershell -Command "Copy-Item temp/optifine1/assets -Destination src/main/resources -Force -Recurse"
+powershell -Command "Copy-Item temp/optifine/net -Destination src/main/java -Force -Recurse"
+powershell -Command "Copy-Item temp/optifine/javax -Destination src/main/java -Force -Recurse"
+powershell -Command "Copy-Item temp/optifine/assets -Destination src/main/resources -Force -Recurse"
 
 :END
 
