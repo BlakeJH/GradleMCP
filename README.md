@@ -11,9 +11,9 @@ Supported versions:
 
 1.8.8/1.8.9
 
-# How to setup #
+# How to setup! #
 
-# Video tutorial: Coming soon #
+## Video tutorial: Coming soon #
 
 Step 1: Make a new folder on your desktop call it anything you want, preferably your client name.
 
