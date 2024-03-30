@@ -21,21 +21,21 @@ Step 2: Download or git clone this repository in that folder
 
 Step 3: Remove everything except the contents inside of the '1.8.8/1.8.9' folder. So you should end up with your client folder, with 3 files. (build.gradle, BuildProject.sh/bat, CompileClient.sh/bat)
 
-# Windows Users #
+## Windows Users #
 
 Step 4: Run BuildProject.bat
 
-# Linux/Mac users only #
+## Linux/Mac users only #
 
 Step 4: Open the folder in terminal and type "chmod +x BuildProject.sh" and hit enter
 
 Step 5: Type in the terminal "./BuildProject.sh" and hit enter.
 
-# Now sit back and wait till the decompile is done #
+## Now sit back and wait till the decompile is done #
 
 Step 6: You will be prompted with the question "Would you like to install optifine aswell? [y/n] type in 'y' for yes or 'n' for no.
 
-# Now GradleMCP is completed #
+## Now GradleMCP is completed #
 
 Step 7: Open up IntelliJ IDEA and create new project.
 
@@ -51,7 +51,7 @@ Step 11: Give the project a name, preferably your artifact id, set the project l
 
 Go to build.gradle:
 
-# We need to change this because IntelliJ adds things to the build.gradle #
+## We need to change this because IntelliJ adds things to the build.gradle #
 
 At the top you will see:
 "plugins {
