@@ -47,7 +47,7 @@ Step 10: Click "Use auto-import" and click next
 
 Step 11: Give the project a name, preferably your artifact id, set the project location to your client folder that you made.
 
-# Now we configure intelliJ #
+## Now we configure intelliJ #
 
 Go to build.gradle:
 
