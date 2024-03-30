@@ -93,13 +93,13 @@ Now you are done! Just click the green arrow right by the dropdown box then star
 
 # How to compile #
 
-# Linux Users / Mac Users #
+## Linux Users / Mac Users #
 
 Step 1: Open your client folder with terminal and type "chmod +x CompileClient.sh"
 
 Step 2: Type in the terminal "./CompileClient.sh"
 
-# Windows Users #
+## Windows Users #
 
 Step 1 : Run CompileClient.bat
 
