@@ -15,8 +15,6 @@ Supported versions:
 
 # Video tutorial: Coming soon #
 
-# This may seem like a lot but trust me it isn't it takes like a minute to setup (Besides decompile time and such) #
-
 Step 1: Make a new folder on your desktop call it anything you want, preferably your client name.
 
 Step 2: Download or git clone this repository in that folder
